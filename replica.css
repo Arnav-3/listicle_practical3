@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+ 
+}
+#heading{
+    color: #000000;
+    margin-top: 0px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 10px #000000;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("header.jpg");  
+    background-size: cover;
+    background-position:top ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+#maintext{
+    margin-top: 70px;
+    font-size: 3rem;
+    color: aliceblue;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+#profile{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+#profile_pic{
+    background-image: url("vrk.png");
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 46%;
+    border: 1px solid white;
+
+}
+#profile_text1{
+    font-weight: bold;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 24px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid  #ffffff ;
+}
+#hr1{
+    height: 2px;
+    width: 220px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: #0d80a3;
+   
+}
+#hr2{
+    height: 2px;
+    width: 200px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: #e6e6e6;
+    border: none;
+   
+}
+#profile_text2{
+    
+    text-align: center;
+    font-style: italic;
+        font-family: "Calisto MT";
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;  
+}
+
+section{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#listicle-body{
+    width: 66.67%;
+    position:relative;
+}
+
+.item-header {
+    
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;    
+    color: rgb(51, 51, 51);
+  }
+  
+  .paragraph-break {
+    height: 20px;
+  }
+  
+  .item-number-container {
+    position:absolute;
+    right:100%;
+    
+  }
+  
+  .item-number {
+    position:absolute;
+
+    right:40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:  rgba(0, 0, 0, 0.25);
+  }
+  
+  .item-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    margin:0px;
+  }
+  
+  .item {
+    padding:60px 0px;
+  }
+  
+#address {
+    
+    color: #000000;
+    text-decoration: none;
+    font-weight:normal;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+  }
+
+  img {
+    width:100%;
+  }
